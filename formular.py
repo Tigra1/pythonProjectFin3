@@ -14,17 +14,6 @@ class Formular:
                 print()
                 # Vytvoření pojišteného
 
-                jmeno = input("Zadejte jméno pojisteného: ").strip()
-                prijmeni = input("Zadejte přijméní pojisteného: ").strip()
-                # if prijmeni == None:
-                # raise Exception("Položka přijméní je povinná a nesmí být prázdná.")
-
-                vek = int(input("Zadejte vek pojisteného: ").strip())
-
-                telefon = input("Zadejte telefon pojisteného: ").strip()
-                pojisteny = Pojisteny(jmeno, prijmeni, vek, telefon)
-                list_pojistencu.append(pojisteny)
-                print("Pojištěný byl úspěšně přidán.")
             case 2:
                 if list_pojistencu:
                     print("\nSeznam všech pojištěných:")
